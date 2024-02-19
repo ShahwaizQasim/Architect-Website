@@ -1,0 +1,243 @@
+﻿<html>
+<head>
+<meta charset="utf-8">
+<title>ARCHITECT WEBSITE</title>
+<link rel="stylesheet" href="css/style4.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="Font/css/all.min.css">
+<link rel="stylesheet" href="css/layout.css">
+<link rel="icon" href="img/logo2.png">
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery-3.6.3.min.js"></script>
+
+<script>
+
+     $(document).ready(function(){
+      
+      $(window).scroll(function(){
+      if(
+        $(window).scrollTop () > 0){
+          $("#nav2").css ({"background-color":"black"});
+          $(".nav-link").css ({"color":"white"});
+        }
+        else{
+          $("#nav2").css ({"background-color":"white"});
+          $(".nav-link").css ({"color":"black"});
+        }
+    });
+		    
+     });
+
+</script>
+
+</head>
+<body>
+
+                                  <!--navi-->
+  
+  <div class="container-fluid" style="border-top:6px solid #FFCD00; position: sticky; top: 0; z-index: 12;" id="nav2">     
+   <div class="container">
+     <nav class="nav navbar navbar-expand-lg text-center pt-3 pb-3">
+       <a href="" class="navbar-brand fw-bold" style="font-size:26px;">ARCHITECT</a>
+       <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navi">
+          <i class="navbar-toggler-icon"></i>
+       </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navi">
+      <ul class="navbar-nav justify-content-center">
+       <li class="nav-item"><a href="index.html" class="nav-link fw-bold">Home</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+       <li class="nav-item"><a href="projects.html" class="nav-link fw-bold">Projects</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+       <li class="nav-item"><a href="services.html" class="nav-link fw-bold">Service</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+       <li class="nav-item"><a href="about.html" class="nav-link fw-bold">About</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+       <li class="nav-item"><a href="contact.html" class="nav-link fw-bold">Contact</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+       </ul>
+     </div>
+   </nav>
+  </div> 
+ </div>
+                                   <!--carousel-->
+                                   
+                                   
+          <div class="container-fluid B-I">
+      <div class="container text-center" style="padding-top:270px;">
+      <p style="font-family:montserrat;margin-bottom:15px;color:#CCC; letter-spacing:8px;font-size:14px;">GET IN TOUCH</p>
+     <h1 style="margin-bottom:180px;font-size:60px;letter-spacing:2px; color:#FFF; font-family: stylish;">Contact Us</h1>
+       </div>
+   </div>     
+ 
+ 
+                                  <!--contact us-->
+                                  
+                                  
+      <div class="container-fluid" style=" height:auto;margin-top:100px; margin-bottom:100px;">
+         <div class="container">
+           <h2 class="fw-bold" style="color:#000; font-family:montserrat;">CONTACT INFORMATION</h2>
+            <div class="row">
+               <div class="col-lg-3 col-md-12 col-sm-12 mt-3">
+                   <i class="fa-solid fa-location-crosshairs" style="color:#CC3;"></i>
+                   <span class="ps-2"style="color:#999; font-family:poppins;">198 West 21th Street,
+Suite 721 New York NY 10016</span>
+               </div>
+               <div class="col-lg-3 col-md-12 col-sm-12 mt-3">
+                   <i class="fa-sharp fa-solid fa-phone-volume ps-4" style="color:#CC3;"></i>
+                   <span class="ps-2" style="color:#999; font-family:poppins;"> +1234-657890</span>
+               </div>
+               <div class="col-lg-3  col-md-12 col-sm-12 mt-3">
+                <a href="" class="text-decoration-none" style="color:#999; font-family:poppins;">
+                  <i class="fa-solid fa-envelope" style="color:#CC3;"></i>
+                  <span class="ps-2">info@gmail.com</span>
+                 </a>	
+               </div>
+               <div class="col-lg-3  col-md-12 col-sm-12 mt-3">
+                  <a href="" class="text-decoration-none" style="color:#999; font-family:poppins;">
+                  <i class="fa-solid fa-globe" style="color:#CC3;"></i>
+                  <span class="ps-2">your website.com</span>
+                 </a>
+               </div>
+            </div>
+            <h2 class="fw-bold mt-5" style="color:#000; font-family:montserrat;">Get In Touch</h2>
+              <div class="row">
+                  <div class="col-lg-6  col-md-12 col-sm-12 mt-3">
+                   <span class="fw-bold" style="color:#666;">First Name</span>
+                   <input placeholder="Your First Name" class="form-control mt-2 pt-2 pb-2">
+                  </div>
+                  <div class="col-lg-6  col-md-12 col-sm-12 mt-3">
+                    <span class="fw-bold" style="color:#666;">Last Name</span>
+                   <input placeholder="Your Last Name" class="form-control mt-2 pt-2 pb-2">
+                  </div>
+                   <div class="col-lg-12 col-md-12 col-sm-12 mt-4">
+                   <span class="fw-bold" style="color:#666;">Email</span>
+                   <input placeholder="Your Email Adress" class="form-control mt-2 pt-2 pb-2">
+                   </div>
+                    <div class="col-lg-12  col-md-12 col-sm-12 mt-3">
+                    <span class="fw-bold" style="color:#666;">Subject</span>
+                   <input placeholder="Your Subject Of This Message" class="form-control mt-2 pt-2 pb-2">
+                    </div>
+                     <div class="col-lg-12  col-md-12 col-sm-12 mt-3">
+                     <span class="fw-bold" style="color:#666;">Message</span>
+                   <textarea placeholder="Say something about us" class="form-control mt-2" style="height:150px;"></textarea>
+                     </div>
+                    <center><button class="btn btn-warning mt-5 w-25 fw-bold" style="color:#FFF;">SEND MESSAGE</button></center>
+              </div>
+         </div>
+      </div>
+      
+      
+                                   <!--map-->
+                                   
+          <div class="container-fluid">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.836760933707!2d67.06559081432313!3d25.005662195582303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb34116675d10c1%3A0xc34a5317eed08219!2sJama%20Masjid%20Khizra%2C%20Gulshan-E-Ghazi%205-D%20Sector%205%20D%20New%20Karachi%20Town%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1676703633310!5m2!1sen!2s" width="100%" height="600" style="border:0; margin-top:50px;"></iframe>
+          </div>
+
+    
+                                    <!--Sign-->
+ 
+    
+    <div class="container-fluid pt-5 pb-5" style=" background-color:#FFCD00;">
+       <div class="container">
+         <div class="row">
+            <div class="col-12">
+               <h1 style="color:#FFF;letter-spacing:2px; font-size:48px;">SIGN UP FOR A NEWS LETTER</h1>
+             </div>
+          </div>
+          <div class="row">
+              <div class="col-lg-7 col-md-12 col-sm-12">
+                 <p class="pt-4" style="font-size:24px; color:#FFF; font-size:poppins;">Enter your email address to get latest news, events and special offers delivered right to your inbox </p>
+              </div>
+              <div class="col-lg-5  col-md-12 col-sm-12">
+                 <input placeholder="Enter your email" class="mt-4 ps-2" style="height:50px; width:300px; border:2px solid #FFF; border-radius:10px 10px 10px 10px;">
+                 <button style="height:50px; width:100px; background-color:#000; color:#FFF; border-radius:10px 10px 10px 10px;">Subscribe</button>
+              </div>
+          </div>
+       </div>
+    </div>
+    
+                                                                <!-- Footer -->
+
+ <div class="container-fluid bg-dark">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-3 col-md-12 col-sm-12 mt-5 pt-5">
+                 <h6 style="color:#FFF;letter-spacing:6px;" class="fw-bold">ABOUT COMPANY</h6>
+                 <p style="color:#999; font-family:poppins;" class="pt-4 lh-base">Far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
+             <a href="#" style="color:#990;"><i class="fa-brands fa-linkedin icon1"></i></a>
+             <a href="#" style="color:#990;" class="ps-2"><i class="fab fa-facebook icon1"></i></a>
+             <a href="#" style="color:#990;" class="ps-2"><i class="fa-brands fa-twitter icon1"></i></a>
+             <a href="#" style="color:#990;" class="ps-2"><i class="fa-brands fa-square-dribbble icon1"></i></a>
+              </div>
+               <div class="col-lg-3  col-md-12 col-sm-12 mt-5 pt-5">
+                   <h6 style="color:#FFF;letter-spacing:6px;" class="fw-bold">RECENT BLOG</h6>
+                   <p style="color:#999;" class="pt-4">— 20 Jan, 2017</p>
+                   <a href="" class="text-decoration-none" style="color:#CCC; font-size:18px; font-family:poppins;">Results of Annual General Meeting</a>
+                       <p style="color:#999;" class="pt-4">— 19 Jan, 2017</p>
+                   <a href="" class="text-decoration-none" style="color:#CCC; font-size:18px; font-family:poppins;">Construction was awarded with “The Best Construction Company” prize</a>
+                       <p style="color:#999;" class="pt-4">— 18 Jan, 2017</p>
+                   <a href="" class="text-decoration-none" style="color:#CCC; font-size:18px; font-family:poppins;">New Saint Michael’s College Residence Hall Buzzing with Student Activity</a>
+               </div>
+                <div class="col-lg-3 col-md-12 col-sm-12 mt-5 pt-5">
+                   <h6 style="color:#FFF;letter-spacing:6px;" class="fw-bold ps-5">INFORMATION</h6>
+                   <ul>
+                      <li class="pt-4 ps-2">
+                        <a href="" class="text-decoration-none" style="color:#CCC;">
+                         <i class="fa-solid fa-check ps-2" style="color:#990;"></i> OUR COMPANY
+                        </a>
+                      </li>
+                      <li class="pt-3 ps-2">
+                        <a href="" class="text-decoration-none" style="color:#CCC;">
+                         <i class="fa-solid fa-check ps-2" style="color:#990;"></i> CERTIFICATION
+                        </a>
+                      </li>
+                      <li class="pt-3 ps-2">
+                        <a href="" class="text-decoration-none" style="color:#CCC;">
+                         <i class="fa-solid fa-check ps-2" style="color:#990;"></i> OUR SERVICES
+                        </a>
+                      </li>
+                      <li class="pt-3 ps-2">
+                        <a href="" class="text-decoration-none" style="color:#CCC;">
+                         <i class="fa-solid fa-check ps-2" style="color:#990;"></i> CAREER
+                        </a>
+                      </li>
+                      <li class="pt-3 ps-2">
+                        <a href="" class="text-decoration-none" style="color:#CCC;">
+                         <i class="fa-solid fa-check ps-2" style="color:#990;"></i> CARE VALUES
+                        </a>
+                      </li>
+                      <li class="pt-3 ps-2">
+                        <a href="" class="text-decoration-none" style="color:#CCC;">
+                         <i class="fa-solid fa-check ps-2" style="color:#990;"></i> COMPANY HISTORY
+                        </a>
+                      </li>
+                      <li class="pt-3 ps-2">
+                        <a href="" class="text-decoration-none" style="color:#CCC;">
+                         <i class="fa-solid fa-check ps-2" style="color:#990;"></i> FAQ
+                        </a>
+                      </li>     
+                   </ul>
+                </div>
+                 <div class="col-lg-3  col-md-12 col-sm-12 mt-5 pt-5">
+                     <h6 style="color:#FFF;letter-spacing:6px;" class="fw-bold ps-4">CONTACT INFO</h6>
+                     <p style="color:#999;" class="pt-4 ps-4">291 South 21th Street, Suite 721 New York NY 10016</p>
+                     <a href="" class="text-decoration-none ps-1" style="color:#CCC;">
+                             <i class="fa-sharp fa-solid fa-phone-volume ps-4" style="color:#990;"></i> +1234-657890
+                        </a>
+                        <br>
+                        <br>
+                      <a href="" class="text-decoration-none ps-1" style="color:#CCC;">
+                          <i class="fa-solid fa-envelope-open-text ps-4" style="color:#990;"></i> indo@gmail.com
+                       </a>
+                       <br>
+                       <br>
+                      <a href="" class="text-decoration-none ps-1" style="color:#CCC;">
+                          <i class="fa-solid fa-location-dot ps-4" style="color:#990;"></i> Plot No 57/ DHA Phase 6
+                      </a>
+                 </div>
+          </div>
+          <div class="row">
+             <div class="col-lg-12 mt-5 fw-bold m-auto ps-4 pb-3" style="color:#FFF; border-top:4px solid #CCC;">
+               <h5 class="text-center pt-3" style="color:#FFF; font-family:montserrat;">THIS WEBSITE IS DESIGN BY SYED SHAWEZ QASIM</h5>
+          </div>
+      </div>
+  </div>
+                     
+</body>
+</html>
+ 
